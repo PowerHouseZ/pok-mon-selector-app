@@ -32,13 +32,13 @@ const Pokémons = () => {
   return (
     <div
       className="pokemon-container"
-      style={{ background: "blue", height: "100vh", width: "100%" }}
+      style={{ background: "blue", height: "auto", width: "auto" }}
     >
       <div className="pokemon-content">
         <h1 className="pokemon-title">Pokémon Selector</h1>
         <div
           className="pokemon-info"
-          style={{ background: "yellow", height: "100vh", width: "100%" }}
+          style={{ background: "yellow", height: "auto", width: "auto" }}
         >
           <h2>
             You chose Pokémon number:{" "}
